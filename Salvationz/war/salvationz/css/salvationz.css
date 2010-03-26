@@ -1,0 +1,440 @@
+a {
+	font-family: "Georgia", Verdana, serif;
+	font-size: small;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	color: #777777;
+}
+
+a:hover {
+	font-family: "Georgia", Verdana, serif;
+	font-size: small;
+	font-style: italic;
+	font-weight: bold;
+	color: #0fa2d8;
+}
+
+a:VISITED {
+	color: #777777
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #0fa2d8;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+body {
+	background-color: #4FC1E8;;
+}
+
+.bodyIntro {
+	background: transparent
+		url("/salvationz/img/Background5_Frame_Film_XS.jpg") no-repeat fixed
+		top center;
+}
+
+.bodyMain {
+	background: transparent url("/salvationz/img/Background4_XS.jpg")
+		no-repeat fixed top center;
+}
+
+.gwt-Button-East {
+	width: 105px;
+	height: 18px;
+	font-family: "Georgia", Verdana, serif;
+	font-size: small;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	background: url("/salvationz/img/Button_Links_105x18_02.png") no-repeat;
+	border: none;
+	padding: 0px 0px;
+	filter: alpha(opacity =                                               85)
+		;
+	opacity: 0.85;
+}
+
+.gwt-Button-East:active {
+	border: none;
+}
+
+.gwt-Button-East:hover {
+	font-size: medium;
+	color: #777777;
+	filter: alpha(opacity =                                             100)
+		;
+	opacity: 1.0;
+	width: 105px;
+}
+
+.gwt-Button-West {
+	width: 105px;
+	height: 18px;
+	font-family: "Georgia", Verdana, serif;
+	font-size: small;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	background: url("/salvationz/img/Button_Links_105x18_02.png") no-repeat;
+	border: none;
+	padding: 0px 0px;
+	filter: alpha(opacity =                                             85);
+	opacity: 0.85;
+}
+
+.gwt-Button-West:active {
+	border: none;
+}
+
+.gwt-Button-West:hover {
+	font-size: medium;
+	color: #777777;
+	filter: alpha(opacity =                                             100)
+		;
+	opacity: 1.0;
+	width: 105px;
+}
+
+.gwt-Button-West-Home {
+	width: 105px;
+	height: 18px;
+	background: url("/salvationz/img/Knoppen_Salvationz_Hover-01.png")
+		no-repeat;
+	border: none;
+	padding: 0px 0px;
+}
+
+.gwt-Button-West-Home:active {
+	
+}
+
+.gwt-Button-West-Home:hover {
+	width: 125px;
+	background: url("/salvationz/img/Knoppen_Salvationz-01.png") no-repeat;
+}
+
+.gwt-Button-West-Salvationz {
+	width: 105px;
+	height: 18px;
+	background: url("/salvationz/img/Knoppen_Salvationz_Hover-02.png")
+		no-repeat;
+	border: none;
+	padding: 0px 0px;
+}
+
+.gwt-Button-West-Salvationz:active {
+	
+}
+
+.gwt-Button-West-Salvationz:hover {
+	width: 125px;
+	background: url("/salvationz/img/Knoppen_Salvationz-02.png") no-repeat;
+}
+
+.gwt-Button-West-Dj {
+	width: 105px;
+	height: 18px;
+	background: url("/salvationz/img/Knoppen_Salvationz_Hover-03.png")
+		no-repeat;
+	border: none;
+	padding: 0px 0px;
+}
+
+.gwt-Button-West-Dj:active {
+	
+}
+
+.gwt-Button-West-Dj:hover {
+	width: 125px;
+	background: url("/salvationz/img/Knoppen_Salvationz-03.png") no-repeat;
+}
+
+.gwt-Button-West-Tickets {
+	width: 105px;
+	height: 18px;
+	background: url("/salvationz/img/Knoppen_Salvationz_Hover-04.png")
+		no-repeat;
+	border: none;
+	padding: 0px 0px;
+}
+
+.gwt-Button-West-Tickets:active {
+	
+}
+
+.gwt-Button-West-Tickets:hover {
+	width: 125px;
+	background: url("/salvationz/img/Knoppen_Salvationz-04.png") no-repeat;
+}
+
+.gwt-Button-West-Location {
+	width: 105px;
+	height: 18px;
+	background: url("/salvationz/img/Knoppen_Salvationz_Hover-05.png")
+		no-repeat;
+	border: none;
+	padding: 0px 0px;
+}
+
+.gwt-Button-West-Location:active {
+	
+}
+
+.gwt-Button-West-Location:hover {
+	width: 125px;
+	background: url("/salvationz/img/Knoppen_Salvationz-05.png") no-repeat;
+}
+
+.gwt-Button-West-Contact {
+	width: 105px;
+	height: 18px;
+	background: url("/salvationz/img/Knoppen_Salvationz_Hover-06.png")
+		no-repeat;
+	border: none;
+	padding: 0px 0px;
+}
+
+.gwt-Button-West-Contact:active {
+	
+}
+
+.gwt-Button-West-Contact:hover {
+	width: 125px;
+	background: url("/salvationz/img/Knoppen_Salvationz-06.png") no-repeat;
+}
+
+.gwt-Button-West-Partners {
+	width: 105px;
+	height: 18px;
+	background: url("/salvationz/img/Knoppen_Salvationz_Hover-07.png")
+		no-repeat;
+	border: none;
+	padding: 0px 0px;
+}
+
+.gwt-Button-West-Partners:active {
+	
+}
+
+.gwt-Button-West-Partners:hover {
+	width: 125px;
+	background: url("/salvationz/img/Knoppen_Salvationz-07.png") no-repeat;
+}
+
+.gwt-Button-skipButton {
+	background: none;
+	border: none;
+}
+
+.gwt-Button-sendButton {
+	background: none;
+	border: none;
+}
+
+.gwt-Image-East { /*
+		filter: alpha(opacity =                                     100);
+	opacity: 1.0;
+
+	*/
+	
+}
+
+.gwt-Image-East:hover { /*
+		filter: alpha(opacity =                                     85);
+	opacity: 0.85;
+	*/
+	cursor: pointer;
+}
+
+.gwt-Image-Cursor {
+	padding: 5px;
+}
+
+.gwt-Image-Cursor:hover {
+	cursor: pointer;
+}
+
+.gwt-DecoratedTapPanel-Location {
+	
+}
+
+.gwt-HTML-Contact {
+	padding-left: 140px;
+}
+
+.backgroundHeader {
+	
+}
+
+.mainPanel {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+.loading {
+	width: 200px;
+	height: 50px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.westPanel {
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-radius-bottomleft: 10px;
+	-webkit-border-radius-bottomright: 10px;
+	-webkit-border-radius-topleft: 10px;
+	-webkit-border-radius-topright: 10px;
+	background-color: #FFFFFF;
+	filter: alpha(opacity =                                             80);
+	opacity: 0.80;
+}
+
+.westPanelHome {
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-radius-bottomleft: 10px;
+	-webkit-border-radius-bottomright: 10px;
+	-webkit-border-radius-topleft: 10px;
+	-webkit-border-radius-topright: 10px;
+	background-color: #FFFFFF;
+	filter: alpha(opacity =                                             80);
+	opacity: 0.80;
+	height: 460px;
+}
+
+.clickPanel {
+	width: 790px;
+	height: 125px;
+	z-index: 777;
+}
+
+.westMenu {
+	float: left;
+	width: 125px;
+}
+
+.eastPanel {
+	
+}
+
+.centerPanel { /*
+	background-color: #FFFFFF;
+	filter: alpha(opacity =   80);
+	opacity: 0.8;
+	*/
+	
+}
+
+.headerContent {
+	width: 450px;
+	font-size: 425%;
+	font-family: "Georgia", Verdana, serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #0d8dcd;
+	padding-top: 20px;
+}
+
+.mainContent {
+	padding: 0px 20px;
+	padding-bottom: 20px;
+}
+
+p.tittle {
+	color: #0fa2d8;
+	font-weight: bold;
+}
+
+p.sub {
+	font-weight: bold;
+}
+
+.dialogContent {
+	
+}
+
+.freeTickets {
+	width: 600px;
+	height: 590px;
+	background: transparent url("/salvationz/img/WinTickets_Screen.jpg")
+}
+
+#djBattleHeader {
+	font-family: "Georgia", Verdana, serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #0d8dcd;
+	font-size: 200%;
+}
+
+.dialogFooter {
+	float: right;
+}
+
+.sIFR-flash {
+	visibility: visible !important;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+#skipMovie {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 35px;
+	top: 492px;
+	left: 0;
+	right: 0;
+	padding-left: 507px;
+}
+
+#flashIntro {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	height: 360px;
+	top: 100px;
+	left: 0;
+	right: 0;
+	padding-left: 41px;
+}
+
+#loading {
+	width: 180px;
+	height: 45px;
+	text-align: center;
+	border-color: #777777;
+	border-style: solid;
+	border-width: 1px;
+	background: white;
+	padding: 10px;
+	color: #777777;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}

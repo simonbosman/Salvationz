@@ -1,0 +1,52 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.partners {
+			padding: 5px;
+		}
+	</ui:style>
+
+	<g:AbsolutePanel>
+		<g:Image ui:field="bavariaImg" />
+		<g:Image ui:field="paylogicImg" />
+		<g:Image ui:field="primeraImg" />
+		<g:Image ui:field="nhImg" />
+		<g:Image ui:field="ffImg" />
+		<g:Image ui:field="partnersImg" />
+		<g:HTML>
+			<img usemap="#partners" src="/salvationz/img/Logos_Partners_02.png" border="0"/>
+			<map name="partners">
+				<area shape="rect" target="_blank" alt="gulden bodem"
+					href="http://www.guldenbodem.nl" coords="33,393,218,423" />
+				<area shape="rect" target="_blank" alt="ISecurity"
+					href="http://www.intelligentsecurity.nl/ " coords="457,289,559,364" />
+				<area shape="rect" target="_blank" alt="TotalMedicalSupport"
+					href="http://www.totalmedicalsupport.nl" coords="375,293,445,366" />
+				<area shape="rect" target="_blank" alt="actionsign"
+					href="http://www.actionsign.nl" coords="268,304,363,357" />
+				<area shape="rect" target="_blank" alt="AVL"
+					href="http://www.avlnederland.nl" coords="155,302,249,353" />
+				<area shape="rect" target="_blank" alt="Jaco Vuurwerk"
+					href="http://www.jacovuurwerk.nl/ " coords="33,297,139,359" />
+				<area shape="rect" target="_blank" alt="FitnessFirst"
+					href="http://www.fitnessfirst.nl" coords="378,217,557,265" />
+				<area shape="rect" target="_blank" alt="NVD"
+					href="http://www.nvd-verkeersgroep.nl" coords="172,212,361,260" />
+				<area shape="rect" target="_blank" alt="gwer" href="http://www.gwer.nl"
+					coords="34,220,151,259" />
+				<area shape="rect" target="_blank" alt="dejavu-events"
+					href="http://www.dejavu-events.nl/ " coords="448,121,537,193" />
+				<area shape="rect" target="_blank" alt="Primera" href="http://www.primera.nl"
+					coords="248,134,423,177" />
+				<area shape="rect" target="_blank" alt="paylogic" href="http://www.paylogic.nl"
+					coords="41,133,221,178" />
+				<area shape="rect" target="_blank" alt="nh hotels"
+					href="http://www.nh-hotels.nl" coords="315,36,383,102" />
+				<area shape="rect" target="_blank" alt="Bavaria" href="http://www.bavaria.nl"
+					coords="33,34,297,103" />
+			</map>
+		</g:HTML>
+	</g:AbsolutePanel>
+
+</ui:UiBinder> 
