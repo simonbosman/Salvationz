@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<g:HTMLPanel>
+		<p class="tittle">Dj's Salvationz.</p>
+		<p>Salvationz heeft met een ‘Earth’ en ‘Heaven’ stage twee areas met
+			verschillende stijlen
+			die op 12 juni van 11.00-23.00 uur het domein
+			worden van vele bekende
+			top dj’s.</p>
+		<ul type="DISC">
+			<b>
+				<li>Ferry Corsten</li>
+				<li>Franco Baresi (Zino's)</li>
+				<li>Roog</li>
+				<li>Real el Canario</li>
+				<li>Vato Gonzalez</li>
+				<li>La Fuente</li>
+				<li>Marco V</li>
+				<li>Marcel Woods</li>
+				<li>Jochen Miller</li>
+				<li>Quintino</li>
+				<li>Marco Joosten</li>
+				<li>Nouveaubeats</li>
+				<li>Rockz</li>
+				</b>
+		</ul>
+		<p>Houd deze site in de gaten voor het laatste nieuws wat betreft de
+			Line up van Salvationz!</p>
+		<p>Volg ons voor het laatste nieuws via Twitter!  
+ </p>
+	</g:HTMLPanel>
+
+</ui:UiBinder> 

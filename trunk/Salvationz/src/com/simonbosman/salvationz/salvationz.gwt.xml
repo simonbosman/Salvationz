@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.7.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.7.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to='salvationz'>
+
+	<!-- Inherit the core Web Toolkit stuff.                        -->
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.google.gwt.inject.Inject" />
+	<inherits name="com.google.gwt.i18n.I18N" />
+	<inherits name='eu.maydu.gwt.validation.ValidationLibrary' />
+	<inherits name='net.customware.gwt.dispatch.Dispatch' />
+	<inherits name='net.customware.gwt.presenter.Presenter' />
+	<inherits name="com.reveregroup.gwt.imagepreloader.ImagePreloader" />
+	<inherits name="com.google.gwt.maps.GoogleMaps" />
+	<inherits name="pl.rmalinowski.gwt2swf.GWT2SWF"/>
+	<inherits name='com.google.gwt.user.theme.chrome.Chrome' />
+	<!--
+		Add gwt-log support, default level `OFF` - check for extended property
+		'log_level' to see if this is overridden
+	-->
+	<inherits name="com.allen_sauer.gwt.log.gwt-log-OFF" />
+
+	<!-- Specify the app entry point class.                         -->
+	<entry-point class='com.simonbosman.salvationz.client.Salvationz' />
+
+	<!-- Also compile Logger at `DEBUG` level -->
+	<extend-property name="log_level" values="DEBUG" />
+	<set-property name="log_level" value="DEBUG" />
+
+	<!--
+		Turn off the floating logger - output will be shown in the hosted mode
+		console
+	-->
+	<set-property name="log_DivLogger" value="DISABLED" />
+
+	<set-property name="locale" value="en" />
+
+	<source path="client" excludes="**/*ViewTest.java" />
+	<source path="shared" />
+	<!-- Specify stylesheet -->
+	<stylesheet src="css/salvationz.css" />
+	<!--
+	<script
+		src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAAOuSzHeyZ9Fnq7Z2xxf6TsBRlOb26qSyU154aZeLwOrF4C7-DphSRqRcoDsDxM6vpKbMjKBsGEXniMQ" />
+	-->
+</module>
