@@ -33,6 +33,7 @@ public class EastMenuPresenter extends
 	final private FreeTicketsPresenter freeTicketsPresenter;
 	final private TicketsPresenter ticketsPresenter;
 	final private DispatchAsync dispatcher;
+	final private String windowFeatures;
 
 	@Inject
 	public EastMenuPresenter(final Display display, final EventBus eventBus,
@@ -43,6 +44,7 @@ public class EastMenuPresenter extends
 		this.dispatcher = dispatcher;
 		this.freeTicketsPresenter = freeTicketsPresenter;
 		this.ticketsPresenter = ticketsPresenter;
+		windowFeatures = "menubar=yes, location=yes, resizable=yes, scrollbars=yes, status=yes";
 	}
 
 	public interface Display extends WidgetDisplay {
@@ -85,23 +87,23 @@ public class EastMenuPresenter extends
 	}
 
 	private void doTwitter() {
-		Window.open(Constants.salvationz.twitterUrl(), "_blank", null);
+		Window.open(Constants.salvationz.twitterUrl(), "_blank", windowFeatures);
 	}
 
 	private void doHyves() {
-		Window.open(Constants.salvationz.hyvesUrl(), "_blank", null);
+		Window.open(Constants.salvationz.hyvesUrl(), "_blank", windowFeatures);
 	}
 
 	private void doFacebook() {
-		Window.open(Constants.salvationz.facebookUrl(), "_blank", null);
+		Window.open(Constants.salvationz.facebookUrl(), "_blank", windowFeatures);
 	}
 
 	private void doPartyflock() {
-		Window.open(Constants.salvationz.partyflockUrl(), "_blank", null);
+		Window.open(Constants.salvationz.partyflockUrl(), "_blank", windowFeatures);
 	}
 
 	private void doYoutube() {
-		Window.open(Constants.salvationz.youtubeUrl(), "_blank", null);
+		Window.open(Constants.salvationz.youtubeUrl(), "_blank", windowFeatures);
 	}
 
 	private void doNieuwsBrief() {
