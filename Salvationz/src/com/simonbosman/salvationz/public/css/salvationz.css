@@ -438,3 +438,7 @@ span.sIFR-alternate {
 	top: 30%;
 	left: 40%;
 }
+
+#swfDivID_1 {
+	z-index: 777;
+}
