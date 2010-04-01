@@ -8,12 +8,6 @@
 	</ui:style>
 
 	<g:AbsolutePanel>
-		<g:Image ui:field="bavariaImg" />
-		<g:Image ui:field="paylogicImg" />
-		<g:Image ui:field="primeraImg" />
-		<g:Image ui:field="nhImg" />
-		<g:Image ui:field="ffImg" />
-		<g:Image ui:field="partnersImg" />
 		<g:HTML>
 			<img usemap="#partners" src="/salvationz/img/Logos_Partners_02.png" border="0"/>
 			<map name="partners">
