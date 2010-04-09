@@ -152,7 +152,7 @@ public class FreeTicketsPresenter extends
 
 		@Override
 		protected void handleSuccess(final VoidResult value) {
-			Window.alert("Thanx...we'll let you know if you won an ticket.");
+			Window.alert("Thanx...we'll let you know if you won an Ferry Corsten merchandise kit.");
 			display.getEmailTextBox().setValue("Emailadress");
 		}
 

@@ -38,7 +38,7 @@ public class AddToFreeTicketsHandler implements
 
 		final String msgBody = "mr. mail says: "
 				+ "Salvationz bezoeker met emailadres " + action.getEmail()
-				+ " wil graag een free ticket winnen. ";
+				+ " wil graag een Ferry Corsten pakket winnen. ";
 
 		try {
 
@@ -49,7 +49,7 @@ public class AddToFreeTicketsHandler implements
 					"simonbosman@hotmail.com", "mr. mail"));
 			message.addRecipient(Message.RecipientType.TO, new InternetAddress(
 					"freetickets@salvationz.nl", "mr. mail"));
-			message.setSubject("salvationz freeticket for " + action.getEmail());
+			message.setSubject("salvationz Ferry Corsten package for " + action.getEmail());
 			message.setText(msgBody);
 			Transport.send(message);
 
