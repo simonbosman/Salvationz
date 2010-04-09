@@ -294,8 +294,8 @@ body {
 	-webkit-border-radius-topleft: 10px;
 	-webkit-border-radius-topright: 10px;
 	background-color: #FFFFFF;
-	filter: alpha(opacity =                                             80);
-	opacity: 0.80;
+	filter: alpha(opacity =                                             100);
+	opacity: 1.0;
 }
 
 .westPanelHome {
@@ -308,8 +308,8 @@ body {
 	-webkit-border-radius-topleft: 10px;
 	-webkit-border-radius-topright: 10px;
 	background-color: #FFFFFF;
-	filter: alpha(opacity =                                             80);
-	opacity: 0.80;
+	filter: alpha(opacity =                                             100);
+	opacity: 1.0;
 	height: 460px;
 }
 
@@ -366,8 +366,8 @@ p.sub {
 
 .freeTickets {
 	width: 600px;
-	height: 590px;
-	background: transparent url("/salvationz/img/WinTickets_Screen.jpg")
+	height: 550px;
+	background: transparent url("/salvationz/img/WinMerchandise.jpg")
 }
 
 #djBattleHeader {

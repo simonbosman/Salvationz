@@ -43,13 +43,13 @@ public class FreeTicketsView implements FreeTicketsPresenter.Display {
 		emailTextBox = new TextBox();
 		emailTextBox.setText("Emailadress");
 		emailTextBox.setWidth("170px");
-		inner.add(emailTextBox, 130, 325);
+		inner.add(emailTextBox, 277, 451);
 
 		sendButton = new Button();
 		sendButton.setSize("75px", "25px");
 		sendButton.addStyleDependentName("sendButton");
 
-		inner.add(sendButton, 120, 362);
+		inner.add(sendButton, 428, 487);
 
 		footer = new FlowPanel();
 		closeButton = new Button("Close", new ClickHandler() {

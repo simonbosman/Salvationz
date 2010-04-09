@@ -80,12 +80,12 @@ public class MainContentPresenter extends
 
 	private void loadContent() {
 
-		display.getMainConainter().getParent().getParent().removeStyleName(
+		/*display.getMainConainter().getParent().getParent().removeStyleName(
 				"westPanel");
 		display.getMainConainter().getParent().getParent().addStyleName(
-				"westPanelHome");
+				"westPanelHome");*/
 		display.getHeaderContent().add(
-				new Image(Constants.salvationz.headerHome()));
+				new Image(Constants.salvationz.headerDj()));
 
 		display.getMainContent().add(homePresenter.getDisplay().asWidget());
 
@@ -113,12 +113,12 @@ public class MainContentPresenter extends
 				switch (event.getMenuOption()) {
 
 				case HOME:
-					display.getMainConainter().getParent().getParent()
+					/*display.getMainConainter().getParent().getParent()
 							.removeStyleName("westPanel");
 					display.getMainConainter().getParent().getParent()
-							.addStyleName("westPanelHome");
+							.addStyleName("westPanelHome");*/
 					display.getHeaderContent().add(
-							new Image(Constants.salvationz.headerHome()));
+							new Image(Constants.salvationz.headerDj()));
 					display.getMainContent().remove(0);
 					display.getMainContent().add(
 							homePresenter.getDisplay().asWidget());
@@ -126,11 +126,11 @@ public class MainContentPresenter extends
 					break;
 
 				case LOCATION:
-					display.getMainConainter().getParent().getParent()
+					/*display.getMainConainter().getParent().getParent()
 							.removeStyleName("westPanelHome");
 					display.getMainConainter().getParent().getParent()
 							.addStyleName("westPanel");
-					display.getHeaderContent().add(
+					*/display.getHeaderContent().add(
 							new Image(Constants.salvationz.headerLocation()));
 					display.getMainContent().remove(0);
 					display.getMainContent().add(
@@ -139,11 +139,11 @@ public class MainContentPresenter extends
 					break;
 
 				case DJ:
-					display.getMainConainter().getParent().getParent()
+					/*display.getMainConainter().getParent().getParent()
 							.removeStyleName("westPanelHome");
 					display.getMainConainter().getParent().getParent()
 							.addStyleName("westPanel");
-					display.getHeaderContent().add(
+					*/display.getHeaderContent().add(
 							new Image(Constants.salvationz.headerDj()));
 					display.getMainContent().remove(0);
 					display.getMainContent().add(
@@ -152,11 +152,11 @@ public class MainContentPresenter extends
 					break;
 
 				case CONTACT:
-					display.getMainConainter().getParent().getParent()
+/*					display.getMainConainter().getParent().getParent()
 							.removeStyleName("westPanelHome");
 					display.getMainConainter().getParent().getParent()
 							.addStyleName("westPanel");
-					display.getHeaderContent().add(
+*/					display.getHeaderContent().add(
 							new Image(Constants.salvationz.headerContact()));
 					display.getMainContent().remove(0);
 					// TODO: Clean this up...put in an UIBinder
@@ -176,11 +176,11 @@ public class MainContentPresenter extends
 					display.getMainContent().add(contact);
 					break;
 				case TICKETS:
-					display.getMainConainter().getParent().getParent()
+/*					display.getMainConainter().getParent().getParent()
 							.removeStyleName("westPanelHome");
 					display.getMainConainter().getParent().getParent()
 							.addStyleName("westPanel");
-					display.getHeaderContent().add(new HTML("Tickets<hr>"));
+*/					display.getHeaderContent().add(new HTML("Tickets<hr>"));
 					display.getMainContent().remove(0);
 					display.getMainContent().add(
 							new HTML("Buy your tickets at paylogic..."));
@@ -201,11 +201,11 @@ public class MainContentPresenter extends
 					display.getMainContent().add(new HTML(""));
 					break;
 				case SALVATIONZ:
-					display.getMainConainter().getParent().getParent()
+				/*	display.getMainConainter().getParent().getParent()
 							.removeStyleName("westPanelHome");
 					display.getMainConainter().getParent().getParent()
 							.addStyleName("westPanel");
-					display.getHeaderContent().add(
+				*/	display.getHeaderContent().add(
 							new Image(Constants.salvationz.headerSalvationz()));
 					display.getMainContent().remove(0);
 					display.getMainContent().add(
@@ -214,11 +214,11 @@ public class MainContentPresenter extends
 					break;
 
 				case PARTNERS:
-					display.getMainConainter().getParent().getParent()
+				/*	display.getMainConainter().getParent().getParent()
 							.removeStyleName("westPanelHome");
 					display.getMainConainter().getParent().getParent()
 							.addStyleName("westPanel");
-					display.getHeaderContent().add(
+				*/	display.getHeaderContent().add(
 							new Image(Constants.salvationz.headerPartners()));
 					display.getMainContent().remove(0);
 					display.getMainContent().add(
