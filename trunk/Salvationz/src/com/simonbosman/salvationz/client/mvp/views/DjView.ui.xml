@@ -4,7 +4,7 @@
 
 	<g:AbsolutePanel>
 		<g:HTML>
-			<img src="/salvationz/img/Banner _Line-Up.gif" />
+			<img src="/salvationz/img/Animated_SA.gif" />
 			<img usemap="#djs" src="/salvationz/img/Line-Up_Totaal.jpg"
 				border="0" />
 			<map name="djs">
