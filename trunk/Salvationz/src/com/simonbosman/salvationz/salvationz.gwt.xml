@@ -12,6 +12,7 @@
 	<inherits name="com.reveregroup.gwt.imagepreloader.ImagePreloader" />
 	<inherits name="com.google.gwt.maps.GoogleMaps" />
 	<inherits name="pl.rmalinowski.gwt2swf.GWT2SWF"/>
+	<inherits name="com.codelathe.gwt.gwtsm"/>
 	<inherits name='com.google.gwt.user.theme.chrome.Chrome' />
 	<!--
 		Add gwt-log support, default level `OFF` - check for extended property

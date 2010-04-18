@@ -132,5 +132,6 @@
 	<classpathentry kind="lib" path="lib/gwt-dispatch-1.0.0.jar"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/GWT (1)"/>
 	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/gwtsm.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
