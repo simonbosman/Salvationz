@@ -12,7 +12,7 @@ public class WestMenuView extends Composite implements
 		WestMenuPresenter.Display {
 
 	final AbsolutePanel westPanel;
-	final Button homeButton;
+	//final Button homeButton;
 	final Button locatieButton;
 	final Button djButton;
 	final Button contactButton;
@@ -27,34 +27,34 @@ public class WestMenuView extends Composite implements
 
 		westPanel = new AbsolutePanel();
 		westPanel.setPixelSize(125, 170);
-
+/*
 		homeButton = new Button();
 		homeButton.addStyleDependentName("West-Home");
 		westPanel.add(homeButton, 0, 10);
-
+*/
 		salvationzButton = new Button();
 		salvationzButton.addStyleDependentName("West-Salvationz");
-		westPanel.add(salvationzButton, 0, 32);
+		westPanel.add(salvationzButton, 0, 10);
 
 		djButton = new Button();
 		djButton.addStyleDependentName("West-Dj");
-		westPanel.add(djButton, 0, 54);
+		westPanel.add(djButton, 0, 32);
 
 		ticketsButton = new Button();
 		ticketsButton.addStyleDependentName("West-Tickets");
-		westPanel.add(ticketsButton, 0, 76);
+		westPanel.add(ticketsButton, 0, 54);
 
 		locatieButton = new Button();
 		locatieButton.addStyleDependentName("West-Location");
-		westPanel.add(locatieButton, 0, 98);
+		westPanel.add(locatieButton, 0, 76);
 
 		partnersButton = new Button();
 		partnersButton.addStyleDependentName("West-Partners");
-		westPanel.add(partnersButton, 0, 120);
+		westPanel.add(partnersButton, 0, 98);
 
 		contactButton = new Button();
 		contactButton.addStyleDependentName("West-Contact");
-		westPanel.add(contactButton, 0, 142);
+		westPanel.add(contactButton, 0, 120);
 
 		/*
 		 * photosButton = new Button();
@@ -100,11 +100,6 @@ public class WestMenuView extends Composite implements
 	}
 
 	@Override
-	public HasClickHandlers getHomeClick() {
-		return homeButton;
-	}
-
-	@Override
 	public HasClickHandlers getLocatieClick() {
 		return locatieButton;
 	}
@@ -117,11 +112,6 @@ public class WestMenuView extends Composite implements
 	@Override
 	public HasClickHandlers getSalvationzClick() {
 		return salvationzButton;
-	}
-
-	@Override
-	public HasMouseOverHandlers getHomeMouseOver() {
-		return homeButton;
 	}
 
 	@Override

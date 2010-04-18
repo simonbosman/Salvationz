@@ -31,10 +31,6 @@ public class WestMenuPresenter extends
 
 	public interface Display extends WidgetDisplay {
 
-		public HasClickHandlers getHomeClick();
-
-		public HasMouseOverHandlers getHomeMouseOver();
-
 		public HasClickHandlers getLocatieClick();
 
 		public HasMouseOverHandlers getLocatieMouseOver();
@@ -120,7 +116,7 @@ public class WestMenuPresenter extends
 			}
 		});
 */
-		display.getHomeClick().addClickHandler(new ClickHandler() {
+	/*	display.getHomeClick().addClickHandler(new ClickHandler() {
 
 			@Override
 			public void onClick(final ClickEvent event) {
@@ -128,7 +124,7 @@ public class WestMenuPresenter extends
 
 			}
 		});
-
+*/
 /*		display.getHomeMouseOver().addMouseOverHandler(new MouseOverHandler() {
 
 			@Override
