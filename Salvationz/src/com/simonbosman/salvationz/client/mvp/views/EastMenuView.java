@@ -1,5 +1,8 @@
 package com.simonbosman.salvationz.client.mvp.views;
 
+import com.allen_sauer.gwt.log.client.Log;
+import com.codelathe.gwt.client.Sound;
+import com.codelathe.gwt.client.SoundManager;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.Composite;
@@ -27,7 +30,11 @@ public class EastMenuView extends Composite implements
 	private final TextBox nameTextBox;
 	private final TextBox emailTextBox;
 	private final HTML popupContent;
+	private SoundManager soundMan;
+	private Sound sound;
+	private final HTML soundContent;
 
+	@SuppressWarnings("deprecation")
 	public EastMenuView() {
 
 		eastPanel = new AbsolutePanel();
@@ -61,8 +68,7 @@ public class EastMenuView extends Composite implements
 		bannerDjBattle.addStyleDependentName("East");
 		eastPanel.add(bannerDjBattle, 10, 142);
 
-		nieuwsBriefImg = new Image(Constants.salvationz
-				.nieuwsBriefButton());
+		nieuwsBriefImg = new Image(Constants.salvationz.nieuwsBriefButton());
 		nieuwsBriefImg.addStyleDependentName("East");
 		eastPanel.add(nieuwsBriefImg, 10, 247);
 
@@ -76,10 +82,35 @@ public class EastMenuView extends Composite implements
 		emailTextBox.setWidth("170px");
 		eastPanel.add(emailTextBox, 10, 296);
 
-		popupContent = new HTML("Oops, something went wrong. <br>Pls send an email to techniek@salvationz.nl");
+		popupContent = new HTML(
+				"Oops, something went wrong. <br>Pls send an email to techniek@salvationz.nl");
 		popup = new DecoratedPopupPanel(true);
 		popup.setAnimationEnabled(true);
 		popup.add(popupContent);
+
+		soundContent = new HTML(
+				"<div class=\"ui360\"><a href=\"https://docs.google.com/a/simonbosman.nl/uc?id=0Bw51gVuM-pSBOTI0ZTE2Y2ItM2Y3Zi00Yjg3LWFhNTQtMjI0MmVlMjM2MWY3&export=download&hl=en\"></div>");
+		eastPanel.add(soundContent);
+
+		soundMan = null;
+		sound = null;
+
+		try {
+			SoundManager.setSoundManagerURL("/salvationz/SoundManager2.swf");
+			SoundManager.setAutoLoad(true);
+			SoundManager.setConsoleMode(true);
+			SoundManager.setAutoPlay(true);
+
+			soundMan = SoundManager.createInstance();
+
+			sound = soundMan
+					.createSound(
+							"marco",
+							"https://docs.google.com/a/simonbosman.nl/uc?id=0Bw51gVuM-pSBOTI0ZTE2Y2ItM2Y3Zi00Yjg3LWFhNTQtMjI0MmVlMjM2MWY3&export=download&hl=en");
+			sound.play();
+		} catch (final Exception ex) {
+			Log.error("Soundmanger could not play", ex);
+		}
 
 		initWidget(eastPanel);
 	}
