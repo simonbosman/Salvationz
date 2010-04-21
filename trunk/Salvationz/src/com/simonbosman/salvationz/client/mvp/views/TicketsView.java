@@ -34,7 +34,9 @@ public class TicketsView implements TicketsPresenter.Display {
 			@Override
 			public void onClick(final ClickEvent event) {
 				modal.hide();
-
+				paylogic
+						.setHTML("<iframe frameborder = 0 height = 525px width = 450px src = https://v1.paylogic.nl/frontoffice/?command=paymentMenu&merchantModuleID=26961 "
+								+ "scrolling = NO marginheight = 0 marginwidth = 0 name = paymentMenu></iframe>");
 			}
 		});
 
@@ -42,7 +44,7 @@ public class TicketsView implements TicketsPresenter.Display {
 		footer.setStyleName("dialogFooter");
 
 		paylogic
-				.setHTML("<iframe frameborder = 0 height = 525px width = 450px src = http://www.paylogic.nl/frontoffice/?command=paymentMenu&merchantModuleID=26961 "
+				.setHTML("<iframe frameborder = 0 height = 525px width = 450px src = https://v1.paylogic.nl/frontoffice/?command=paymentMenu&merchantModuleID=26961 "
 						+ "scrolling = NO marginheight = 0 marginwidth = 0 name = paymentMenu></iframe>");
 
 		inner.add(paylogic);
@@ -85,6 +87,11 @@ public class TicketsView implements TicketsPresenter.Display {
 	@Override
 	public HasClickHandlers getCloseButton() {
 		return closeButton;
+	}
+
+	@Override
+	public HTML getPaylogic() {
+		return paylogic;
 	}
 
 }

@@ -79,6 +79,7 @@ public class EastMenuPresenter extends
 		// eventBus.fireEvent(new WestMenuEvent(WestMenuEnum.TICKETS));
 		eventBus.fireEvent(new FlashEvent(FlashEnum.HIDE));
 		ticketsPresenter.bind();
+		ticketsPresenter.setDiscount();
 	}
 
 	private void doDjBattle() {

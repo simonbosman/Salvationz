@@ -9,6 +9,7 @@ import net.customware.gwt.presenter.client.widget.WidgetPresenter;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
+import com.google.gwt.user.client.ui.HTML;
 import com.google.inject.Inject;
 import com.simonbosman.salvationz.shared.events.FlashEnum;
 import com.simonbosman.salvationz.shared.events.FlashEvent;
@@ -23,8 +24,20 @@ public class TicketsPresenter extends WidgetPresenter<TicketsPresenter.Display> 
 
 	public interface Display extends WidgetDisplay {
 		public void show();
+
 		public void hide();
+
 		public HasClickHandlers getCloseButton();
+
+		public HTML getPaylogic();
+	}
+
+	public void setDiscount() {
+		display
+				.getPaylogic()
+				.setHTML(
+						"<iframe frameborder = 0 height = 525px width = 450px src = https://v1.paylogic.nl/frontoffice/?command=paymentMenu&merchantModuleID=28315 "
+								+ "scrolling = NO marginheight = 0 marginwidth = 0 name = paymentMenu></iframe>");
 	}
 
 	@Override
