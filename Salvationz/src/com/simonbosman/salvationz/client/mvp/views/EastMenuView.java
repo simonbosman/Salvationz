@@ -88,6 +88,7 @@ public class EastMenuView extends Composite implements
 		popup.setAnimationEnabled(true);
 		popup.add(popupContent);
 
+		// soundContent = null;
 		soundContent = new HTML(
 				"<div class=\"ui360\"><a href=\"http://www.salvationz.nl/marcojoosten.mp3\"></div>");
 		eastPanel.add(soundContent);
@@ -96,6 +97,7 @@ public class EastMenuView extends Composite implements
 		sound = null;
 
 		try {
+
 			SoundManager.setSoundManagerURL("/salvationz/SoundManager2.swf");
 			SoundManager.setAutoLoad(true);
 			SoundManager.setConsoleMode(true);
@@ -103,11 +105,10 @@ public class EastMenuView extends Composite implements
 
 			soundMan = SoundManager.createInstance();
 
-			sound = soundMan
-					.createSound(
-							"marco",
-							"http://www.salvationz.nl/marcojoosten.mp3");
+			sound = soundMan.createSound("marco",
+					"http://www.salvationz.nl/marcojoosten.mp3");
 			sound.play();
+
 		} catch (final Exception ex) {
 			Log.error("Soundmanger could not play", ex);
 		}

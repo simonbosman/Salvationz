@@ -7,6 +7,7 @@ import net.customware.gwt.presenter.client.widget.WidgetDisplay;
 import net.customware.gwt.presenter.client.widget.WidgetPresenter;
 import pl.rmalinowski.gwt2swf.client.ui.SWFWidget;
 
+import com.allen_sauer.gwt.log.client.Log;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
@@ -42,6 +43,7 @@ public class HeaderPresenter extends WidgetPresenter<HeaderPresenter.Display> {
 	 */
 	public interface Display extends WidgetDisplay {
 		public SWFWidget getFlash();
+
 		public HasClickHandlers getClickPanel();
 	}
 
@@ -53,33 +55,36 @@ public class HeaderPresenter extends WidgetPresenter<HeaderPresenter.Display> {
 
 	@Override
 	protected void onBind() {
+		try {
+			eventBus.addHandler(FlashEvent.TYPE, new FlashEventHandler() {
 
-		eventBus.addHandler(FlashEvent.TYPE, new FlashEventHandler() {
+				@Override
+				public void onFlashEvent(final FlashEvent event) {
 
-			@Override
-			public void onFlashEvent(final FlashEvent event) {
+					switch (event.getFlashOption()) {
 
-				switch (event.getFlashOption()) {
+					case HIDE:
+						display.getFlash().setVisible(false);
+						break;
 
-				case HIDE:
-					display.getFlash().setVisible(false);
-					break;
-
-				case SHOW:
-					display.getFlash().setVisible(true);
-					break;
+					case SHOW:
+						display.getFlash().setVisible(true);
+						break;
+					}
 				}
-			}
-		});
+			});
 
-		display.getClickPanel().addClickHandler(new ClickHandler() {
+			display.getClickPanel().addClickHandler(new ClickHandler() {
 
-			@Override
-			public void onClick(final ClickEvent event) {
-				eventBus.fireEvent(new FlashEvent(FlashEnum.HIDE));
-				ticketsPresenter.bind();
-			}
-		});
+				@Override
+				public void onClick(final ClickEvent event) {
+					eventBus.fireEvent(new FlashEvent(FlashEnum.HIDE));
+					ticketsPresenter.bind();
+				}
+			});
+		} catch (final Exception ex) {
+			Log.error("Binding failed in HeaderPresenter", ex);
+		}
 	}
 
 	@Override
