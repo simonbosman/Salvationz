@@ -53,7 +53,7 @@ body {
 	background: url("/salvationz/img/Button_Links_105x18_02.png") no-repeat;
 	border: none;
 	padding: 0px 0px;
-	filter: alpha(opacity =                                               85)
+	filter: alpha(opacity =                                                   85)
 		;
 	opacity: 0.85;
 }
@@ -65,7 +65,7 @@ body {
 .gwt-Button-East:hover {
 	font-size: medium;
 	color: #777777;
-	filter: alpha(opacity =                                             100)
+	filter: alpha(opacity =                                                 100)
 		;
 	opacity: 1.0;
 	width: 105px;
@@ -82,7 +82,8 @@ body {
 	background: url("/salvationz/img/Button_Links_105x18_02.png") no-repeat;
 	border: none;
 	padding: 0px 0px;
-	filter: alpha(opacity =                                             85);
+	filter: alpha(opacity =                                                 85)
+		;
 	opacity: 0.85;
 }
 
@@ -93,7 +94,7 @@ body {
 .gwt-Button-West:hover {
 	font-size: medium;
 	color: #777777;
-	filter: alpha(opacity =                                             100)
+	filter: alpha(opacity =                                                 100)
 		;
 	opacity: 1.0;
 	width: 105px;
@@ -294,7 +295,8 @@ body {
 	-webkit-border-radius-topleft: 10px;
 	-webkit-border-radius-topright: 10px;
 	background-color: #FFFFFF;
-	filter: alpha(opacity =                                             100);
+	filter: alpha(opacity =                                                 100)
+		;
 	opacity: 1.0;
 }
 
@@ -308,7 +310,8 @@ body {
 	-webkit-border-radius-topleft: 10px;
 	-webkit-border-radius-topright: 10px;
 	background-color: #FFFFFF;
-	filter: alpha(opacity =                                             100);
+	filter: alpha(opacity =                                                 100)
+		;
 	opacity: 1.0;
 	height: 460px;
 }
@@ -380,6 +383,27 @@ p.sub {
 
 .dialogFooter {
 	float: right;
+}
+
+.subPanel {
+	font-family: "Georgia", Verdana, serif;
+	font-weight: bold;
+	color: white;
+}
+
+a.subPanel {
+	font-family: "Georgia", Verdana, serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+a.subPanel:hover {
+	color: #777777;
+}
+
+a.subPanel:visited {
+	color: white;
 }
 
 .sIFR-flash {

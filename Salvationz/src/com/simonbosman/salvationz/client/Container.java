@@ -46,7 +46,7 @@ public class Container {
 		try {
 			presenter = (EastMenuPresenter) objectContainer
 					.get("eastMenuPresenter");
-			presenter.doTickets();
+			presenter.doTickets(false);
 		} catch (final Exception ex) {
 			Log.error("doTickets failed", ex);
 		}

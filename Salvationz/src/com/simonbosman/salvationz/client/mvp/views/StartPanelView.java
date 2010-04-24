@@ -44,7 +44,7 @@ public class StartPanelView extends Composite implements
 		layoutPanel.setStyleName("mainPanel");
 
 		layoutPanel.addNorth(northPanel, 130);
-		layoutPanel.addSouth(southPanel, 5);
+		layoutPanel.addSouth(southPanel, 15);
 		layoutPanel.addWest(scrollPanel, 785);
 		layoutPanel.addEast(eastPanel, 190);
 		layoutPanel.add(centerPanel);
@@ -109,7 +109,7 @@ public class StartPanelView extends Composite implements
 		final int lpIndex = layoutPanel.getWidgetIndex(southPanel);
 		final FlowPanel fp = (FlowPanel) layoutPanel.getWidget(lpIndex);
 		fp.setStyleName("subPanel");
-		fp.add(new HTML(""));
+		fp.add(new HTML("<a href=/salvationz/img/algvoorw.pdf>algemene voorwaarden</a>"));
 	}
 
 	@Override
