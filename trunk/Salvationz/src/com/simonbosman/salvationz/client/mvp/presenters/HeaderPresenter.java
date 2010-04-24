@@ -8,11 +8,8 @@ import net.customware.gwt.presenter.client.widget.WidgetPresenter;
 import pl.rmalinowski.gwt2swf.client.ui.SWFWidget;
 
 import com.allen_sauer.gwt.log.client.Log;
-import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.inject.Inject;
-import com.simonbosman.salvationz.shared.events.FlashEnum;
 import com.simonbosman.salvationz.shared.events.FlashEvent;
 import com.simonbosman.salvationz.shared.events.FlashEventHandler;
 
@@ -74,14 +71,14 @@ public class HeaderPresenter extends WidgetPresenter<HeaderPresenter.Display> {
 				}
 			});
 
-			display.getClickPanel().addClickHandler(new ClickHandler() {
+			/*display.getClickPanel().addClickHandler(new ClickHandler() {
 
 				@Override
 				public void onClick(final ClickEvent event) {
 					eventBus.fireEvent(new FlashEvent(FlashEnum.HIDE));
 					ticketsPresenter.bind();
 				}
-			});
+			});*/
 		} catch (final Exception ex) {
 			Log.error("Binding failed in HeaderPresenter", ex);
 		}

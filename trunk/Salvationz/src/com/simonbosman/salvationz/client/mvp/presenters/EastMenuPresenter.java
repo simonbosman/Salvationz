@@ -75,11 +75,13 @@ public class EastMenuPresenter extends
 
 	}
 
-	public void doTickets() {
+	public void doTickets(final Boolean discount) {
 		// eventBus.fireEvent(new WestMenuEvent(WestMenuEnum.TICKETS));
 		eventBus.fireEvent(new FlashEvent(FlashEnum.HIDE));
 		ticketsPresenter.bind();
-		ticketsPresenter.setDiscount();
+		if (discount) {
+			ticketsPresenter.setDiscount();
+		}
 	}
 
 	private void doDjBattle() {
@@ -88,7 +90,9 @@ public class EastMenuPresenter extends
 	}
 
 	private void doTwitter() {
-		Window.open(Constants.salvationz.twitterUrl(), "_blank", windowFeatures);
+		Window
+				.open(Constants.salvationz.twitterUrl(), "_blank",
+						windowFeatures);
 	}
 
 	private void doHyves() {
@@ -96,15 +100,19 @@ public class EastMenuPresenter extends
 	}
 
 	private void doFacebook() {
-		Window.open(Constants.salvationz.facebookUrl(), "_blank", windowFeatures);
+		Window.open(Constants.salvationz.facebookUrl(), "_blank",
+				windowFeatures);
 	}
 
 	private void doPartyflock() {
-		Window.open(Constants.salvationz.partyflockUrl(), "_blank", windowFeatures);
+		Window.open(Constants.salvationz.partyflockUrl(), "_blank",
+				windowFeatures);
 	}
 
 	private void doYoutube() {
-		Window.open(Constants.salvationz.youtubeUrl(), "_blank", windowFeatures);
+		Window
+				.open(Constants.salvationz.youtubeUrl(), "_blank",
+						windowFeatures);
 	}
 
 	private void doNieuwsBrief() {
@@ -142,7 +150,7 @@ public class EastMenuPresenter extends
 
 					@Override
 					public void onClick(final ClickEvent event) {
-						doTickets();
+						doTickets(true);
 
 					}
 				}));
@@ -274,7 +282,8 @@ public class EastMenuPresenter extends
 
 			popup.setPopupPosition(left, top);
 
-			if (!display.getEmailTextBox().getValue().equalsIgnoreCase("Emailadress")) {
+			if (!display.getEmailTextBox().getValue().equalsIgnoreCase(
+					"Emailadress")) {
 				popup.show();
 			}
 
