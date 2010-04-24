@@ -4,8 +4,10 @@
 	<g:AbsolutePanel>
 		<g:HTML>
 			<img src="/salvationz/img/Animated_SA.gif" />
-			<img usemap="#djs" src="/salvationz/img/Line_up_4.jpg" border="0" />
-						<map name="djs">
+			<img usemap="#djs" src="/salvationz/img/Line_up_3.jpg" border="0" />
+			<map name="djs">
+				<area shape="rect" title="dj roog" target="_blank" alt="dj roog"
+					href="http://www.djroog.com/" coords="559,142,642,165" />
 				<area shape="rect" title="Randy Katana" target="_blank" alt="Randy Katana"
 					href=" http://www.randykatana.com/" coords="419,160,651,184" />
 				<area shape="rect" title="billytheklit" target="_blank" alt="billytheklit"

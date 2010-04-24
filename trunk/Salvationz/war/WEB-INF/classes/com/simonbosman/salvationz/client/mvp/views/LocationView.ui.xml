@@ -1,0 +1,36 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+	<g:HTMLPanel>
+		<p class="tittle">Locatie</p>
+		<p>
+			De locatie van Salvationz, het E3 Strand, is gelegen in Eersel.
+		</p>
+		<p>
+			Een ideale locatie in Noord-Brabant voor een dance festival!
+		</p>
+		<p>
+			Het E3 Strand is omgeven door helder water en een mooi zandstrand
+			met
+			een
+			afgeschermde, bosrijke omgeving als decor. Vanaf de snelweg ben
+			je
+			in
+			nog geen 5 minuten in een compleet andere omgeving. Het E3 Strand
+			is
+			uitstekend bereikbaar per auto, taxi, openbaar vervoer en fiets.
+			Met
+			4000 parkeerplaatsen is er ruime parkeergelegenheid voor
+			bezoekers.
+			</p>
+		<p>
+			Houd de site in de gaten voor het laatste nieuws over de
+			mogelijkheden!
+	</p>
+
+		<g:Image ui:field="e3Img"/>
+
+	</g:HTMLPanel>
+
+
+</ui:UiBinder>

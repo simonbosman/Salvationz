@@ -1,0 +1,45 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+	<g:HTMLPanel>
+		<p class="tittle">Salvationz slaat op 12 juni 2010 haar vleugels uit op het
+			E3 Strand in Eersel.</p>
+		<p class="sub">Van 11:00 uur tot 23:00 uur zal er House, Eclectic, Club,
+			Progressive &amp;
+			Trance uit de speakers knallen.</p>
+
+		<p>Het wordt een uitgepakte eerste editie van Salvationz met een
+			gevarieerde en zeer aansprekende Line up!!</p>
+
+		<p>Bij Salvationz staat de totaalbeleving centraal, dus naast een
+			lekkere sound en optimale food &amp;
+			beverage voorzieningen, mogen
+			uitdagende dansshows en verrassende theater
+			acts op het terrein
+			natuurlijk
+			niet ontbreken. Salvationz is een euforische trip van het
+			moment dat je
+			binnen komt tot je weer voldaan naar huis gaat.
+ </p>
+
+		<p class="sub">“Enjoy earth like heaven”</p>
+
+		<p>De Early bird tickets á € 25,- (ex. Fee) zijn vanaf nu verkrijgbaar
+			op www.salvationz.nl en bij alle Primera verkooppunten. De Early
+			birds zijn verkrijgbaar tot 16 april 2010, dus ben er snel bij!
+			Reguliere tickets kosten € 32,50 (ex. Fee) 
+
+ </p>
+
+		<p>Pendeldiensten zijn mogelijk vanaf station Eindhoven. Een
+			hotelovernachting in het Koningshof te Veldhoven is tevens mogelijk,
+			check de button “Location” voor meer informatie. Houd deze site in
+			de gaten voor de vele mogelijkheden en het laatste nieuws over
+			Salvationz!! 
+ </p>
+
+	</g:HTMLPanel>
+</ui:UiBinder>
+		

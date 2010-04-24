@@ -1,0 +1,22 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+	<g:HTMLPanel>
+		<p class="tittle">Party at the lake, Sleep in the forest...</p>
+
+		<p class="sub">
+			Sluit Salvationz af met een heerlijke overnachting in NH Koningshof. 
+	</p>
+		<p>
+			Word wakker in een door bossen omgeven hotel en geniet van een uitgebreid
+			ontbijtbuffet.
+			Na een verfrissende duik in het zwembad is het weekend zeker geslaagd.
+	</p>
+		<p>
+			<g:Anchor ui:field="bookNow"/><br/>
+			Of bel het gratis telefoonnummer 0800 01150116
+		</p>
+		<g:Image ui:field="nhHotel" />
+	</g:HTMLPanel>
+</ui:UiBinder>
+		

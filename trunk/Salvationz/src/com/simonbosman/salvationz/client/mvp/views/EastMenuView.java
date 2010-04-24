@@ -88,6 +88,7 @@ public class EastMenuView extends Composite implements
 		popup.setAnimationEnabled(true);
 		popup.add(popupContent);
 
+
 		// soundContent = null;
 		soundContent = new HTML(
 				"<div class=\"ui360\"><a href=\"http://www.salvationz.nl/marcojoosten.mp3\"></div>");
