@@ -53,7 +53,7 @@ body {
 	background: url("/salvationz/img/Button_Links_105x18_02.png") no-repeat;
 	border: none;
 	padding: 0px 0px;
-	filter: alpha(opacity =                                               85)
+	filter: alpha(opacity =                                                   85)
 		;
 	opacity: 0.85;
 }
@@ -65,7 +65,7 @@ body {
 .gwt-Button-East:hover {
 	font-size: medium;
 	color: #777777;
-	filter: alpha(opacity =                                             100)
+	filter: alpha(opacity =                                                 100)
 		;
 	opacity: 1.0;
 	width: 105px;
@@ -82,7 +82,8 @@ body {
 	background: url("/salvationz/img/Button_Links_105x18_02.png") no-repeat;
 	border: none;
 	padding: 0px 0px;
-	filter: alpha(opacity =                                             85);
+	filter: alpha(opacity =                                                 85)
+		;
 	opacity: 0.85;
 }
 
@@ -93,7 +94,7 @@ body {
 .gwt-Button-West:hover {
 	font-size: medium;
 	color: #777777;
-	filter: alpha(opacity =                                             100)
+	filter: alpha(opacity =                                                 100)
 		;
 	opacity: 1.0;
 	width: 105px;
@@ -294,8 +295,9 @@ body {
 	-webkit-border-radius-topleft: 10px;
 	-webkit-border-radius-topright: 10px;
 	background-color: #FFFFFF;
-	filter: alpha(opacity =                                             80);
-	opacity: 0.80;
+	filter: alpha(opacity =                                                 100)
+		;
+	opacity: 1.0;
 }
 
 .westPanelHome {
@@ -308,8 +310,9 @@ body {
 	-webkit-border-radius-topleft: 10px;
 	-webkit-border-radius-topright: 10px;
 	background-color: #FFFFFF;
-	filter: alpha(opacity =                                             80);
-	opacity: 0.80;
+	filter: alpha(opacity =                                                 100)
+		;
+	opacity: 1.0;
 	height: 460px;
 }
 
@@ -366,8 +369,8 @@ p.sub {
 
 .freeTickets {
 	width: 600px;
-	height: 590px;
-	background: transparent url("/salvationz/img/WinTickets_Screen.jpg")
+	height: 550px;
+	background: transparent url("/salvationz/img/WinMerchandise.jpg")
 }
 
 #djBattleHeader {
@@ -380,6 +383,22 @@ p.sub {
 
 .dialogFooter {
 	float: right;
+}
+
+a.southPanel{
+	font-family: "Georgia", Verdana, serif;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+
+a.southPanel:hover {
+	color: #777777;
+}
+
+a.southPanel:visited {
+	color: white;
 }
 
 .sIFR-flash {
@@ -437,4 +456,8 @@ span.sIFR-alternate {
 	position: absolute;
 	top: 30%;
 	left: 40%;
+}
+
+#swfDivID_1 {
+	z-index: 777;
 }

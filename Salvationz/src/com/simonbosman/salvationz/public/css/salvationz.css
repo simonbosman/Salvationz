@@ -385,24 +385,19 @@ p.sub {
 	float: right;
 }
 
-.subPanel {
+a.southPanel{
 	font-family: "Georgia", Verdana, serif;
 	font-weight: bold;
 	color: white;
-}
-
-a.subPanel {
-	font-family: "Georgia", Verdana, serif;
-	font-weight: bold;
 	text-decoration: none;
-	color: white;
 }
 
-a.subPanel:hover {
+
+a.southPanel:hover {
 	color: #777777;
 }
 
-a.subPanel:visited {
+a.southPanel:visited {
 	color: white;
 }
 

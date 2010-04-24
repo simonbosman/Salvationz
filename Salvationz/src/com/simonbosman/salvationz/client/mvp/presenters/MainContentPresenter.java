@@ -171,7 +171,7 @@ public class MainContentPresenter extends
 									+ "<a href=mailto:e-tickets@salvationz.nl>e-tickets@salvationz.nl</a></p>"
 									+ "<p class=tittle>Marketing en communicatie</p>"
 									+ "<p>Voor alle promotionele activiteiten...<br>"
-									+ "<a href=mailto:\"M&amp;C@salvationz.nl\">M&C@salvationz.nl</a></p>");
+									+ "<a href=mailto:MC@salvationz.nl>MC@salvationz.nl</a></p>");
 					contact.addStyleDependentName("Contact");
 					display.getMainContent().add(contact);
 					break;

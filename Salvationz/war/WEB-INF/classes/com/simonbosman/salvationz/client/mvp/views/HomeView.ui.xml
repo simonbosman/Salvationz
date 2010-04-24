@@ -1,0 +1,35 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+	<g:AbsolutePanel>
+		<g:HTML>
+			<img src="/salvationz/img/Animated_SA.gif" />
+			<img usemap="#djs" src="/salvationz/img/Line_up_4.jpg" border="0" />
+						<map name="djs">
+				<area shape="rect" title="Randy Katana" target="_blank" alt="Randy Katana"
+					href=" http://www.randykatana.com/" coords="419,160,651,184" />
+				<area shape="rect" title="billytheklit" target="_blank" alt="billytheklit"
+					href="http://www.billytheklit.com/" coords="578,750,647,815" />
+				<area shape="rect" title="Bassjackers" target="_blank" alt="Bassjackers"
+					href="http://www.bassjackers.com/" coords="585,512,646,556" />
+				<area shape="rect" title="La Fuente" target="_blank" alt="La Fuente"
+					href="http://www.dj-lafuente.com/" coords="509,499,586,531" />
+				<area shape="rect" title="Quintino " target="_blank" alt="Quintino "
+					href="http://www.quintino.nl/" coords="560,468,650,500" />
+				<area shape="rect" title="Real El Canario" target="_blank"
+					alt="Real El Canario" href="http://www.realelcanario.net/" coords="561,419,642,470" />
+				<area shape="rect" title="Vato Gonzalez" target="_blank" alt="Vato Gonzalez"
+					href="http://www.vato.nl/" coords="492,389,644,410" />
+				<area shape="rect" title="Marco Joosten" target="_blank" alt="Marco Joosten"
+					href="http://www.marcojoosten.com/" coords="464,246,659,272" />
+				<area shape="rect" title="Jochen Miller" target="_blank" alt="Jochen Miller"
+					href="http://www.jochenmiller.com/" coords="451,188,649,226" />
+				<area shape="rect" title="Marco V" target="_blank" alt="Marco V"
+					href="http://www.marcov.nl/site/" coords="512,105,662,140" />
+				<area shape="rect" title="Ferry Corsten" target="_blank" alt="Ferry Corsten"
+					href="http://www.ferrycorsten.com/" coords="458,85,661,109" />
+			</map>
+		</g:HTML>
+	</g:AbsolutePanel>
+
+</ui:UiBinder>

@@ -23,6 +23,7 @@ public class StartPanelView extends Composite implements
 	final private FlowPanel westPanel;
 	final private FlowPanel eastPanel;
 	final private FlowPanel southPanel;
+	final private FlowPanel south2Panel;
 	final private FlowPanel centerPanel;
 
 	/**
@@ -38,13 +39,15 @@ public class StartPanelView extends Composite implements
 		scrollPanel.add(westPanel);
 		eastPanel = new FlowPanel();
 		southPanel = new FlowPanel();
+		south2Panel = new FlowPanel();
 		centerPanel = new FlowPanel();
 
 		layoutPanel = new DockLayoutPanel(Unit.PX);
 		layoutPanel.setStyleName("mainPanel");
 
 		layoutPanel.addNorth(northPanel, 130);
-		layoutPanel.addSouth(southPanel, 15);
+		layoutPanel.addSouth(south2Panel, 5);
+		layoutPanel.addSouth(southPanel, 30);
 		layoutPanel.addWest(scrollPanel, 785);
 		layoutPanel.addEast(eastPanel, 190);
 		layoutPanel.add(centerPanel);
@@ -108,8 +111,8 @@ public class StartPanelView extends Composite implements
 	public void setPanelSouth() {
 		final int lpIndex = layoutPanel.getWidgetIndex(southPanel);
 		final FlowPanel fp = (FlowPanel) layoutPanel.getWidget(lpIndex);
-		fp.setStyleName("subPanel");
-		fp.add(new HTML("<a href=/salvationz/img/algvoorw.pdf>algemene voorwaarden</a>"));
+		fp.setStyleName("southPanel");
+		fp.add(new HTML("<a class=southPanel href=/salvationz/img/algvoorw.pdf><img src=/salvationz/img/18plus.png/>&nbsp;&nbsp;algemene voorwaarden</a>"));
 	}
 
 	@Override

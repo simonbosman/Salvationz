@@ -1,0 +1,77 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+	<g:HTMLPanel>
+		<p class="tittle">Routeschrijving E3 Strand, Buivensedreef in Eersel</p>
+		<img src="/salvationz/img/e3Map.png" />
+		<p class="sub">
+			Vanuit Eindhoven/Veldhoven/Venlo/Duitsland:
+	</p>
+		<p>
+			Volg de autosnelweg A67, richting Turnhout.
+			Neem afslag 32, dan
+			rechtsaf borden E3-strand volgen.
+			Rechtsaf bij carpoolplaats en de
+			bochtige weg volgen tot ingang E3-strand.
+			Rechtsaf door witte poort de
+			weg volgen naar parking.
+			</p>
+		<p class="sub">
+			Vanuit Turnhout/Antwerpen:
+			</p>
+		<p>
+			Volg de autosnelweg A67 noord-oostwaarts, richting Eindhoven.
+			Neem
+			afslag 32, dan linksaf borden E3-strand volgen.
+			(vervolg zie boven)
+			</p>
+		<p class="sub">
+			Vanuit Valkenswaard:
+			</p>
+		<p>
+			Provincialeweg N612 volgen richting Dommelen, Eersel.
+			Bij rotonde
+			Het Stuivertje voorbij Eersel rechtdoor weg volgen.
+			(vervolg zie
+			boven)
+			</p>
+		<p class="sub">
+			Vanuit Maastricht:
+			</p>
+		<p>
+			Autosnelweg A2 noordwaarts richting Eindhoven.
+			Bij verkeersplein
+			Leenderheide linksaf....
+			(vervolg zie boven)
+			</p>
+		<p class="sub">
+			Vanuit Tilburg:
+			</p>
+		<p>
+			Na autosnelweg A58 bij Batadorp de A2 gaan volgen zuidwaarts.
+			Afslag richting Eersel/Turnhout nemen
+			(vervolg zie boven >)
+			</p>
+		<p class="sub">
+			Vanuit Den Bosch/Best:
+			</p>
+		<p>
+			Autosnelweg A2 zuidwaarts richting
+			Eindhoven.
+			Bij Ekkersweijer rechts
+			aanhouden A58 volgen richting
+			Tilburg.
+			Direct bij eerste afslag A58
+			verlaten bij Batadorp en A2 gaan
+			volgen
+			zuidwaarts.
+			Afslag richting
+			Eersel/Turnhout nemen....
+			(vervolg
+			zie boven>)
+			</p>
+		<g:Image ui:field="e3Img" />
+	</g:HTMLPanel>
+
+
+</ui:UiBinder>
