@@ -180,7 +180,7 @@ public class EastMenuPresenter extends
 						doFacebook();
 					}
 				}));
-		registerHandler(display.getPartyflockClick().addClickHandler(
+	/*	registerHandler(display.getPartyflockClick().addClickHandler(
 				new ClickHandler() {
 
 					@Override
@@ -188,7 +188,7 @@ public class EastMenuPresenter extends
 						doPartyflock();
 					}
 				}));
-		registerHandler(display.getYoutubeClick().addClickHandler(
+*/		registerHandler(display.getYoutubeClick().addClickHandler(
 				new ClickHandler() {
 
 					@Override

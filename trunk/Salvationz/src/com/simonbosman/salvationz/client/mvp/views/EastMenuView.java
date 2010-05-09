@@ -23,7 +23,7 @@ public class EastMenuView extends Composite implements
 	private final Image twitterImg;
 	private final Image hyvesImg;
 	private final Image facebookImg;
-	private final Image partyflockImg;
+	//private final Image partyflockImg;
 	private final Image youtubeImg;
 	private final Image nieuwsBriefImg;
 	private final DecoratedPopupPanel popup;
@@ -48,17 +48,17 @@ public class EastMenuView extends Composite implements
 		facebookImg.addStyleDependentName("East");
 		eastPanel.add(facebookImg, 46, 0);
 
-		partyflockImg = new Image(Constants.salvationz.partyflockImg());
+		/*partyflockImg = new Image(Constants.salvationz.partyflockImg());
 		partyflockImg.addStyleDependentName("East");
-		eastPanel.add(partyflockImg, 82, 0);
+		eastPanel.add(partyflockImg, 82, 0);*/
 
 		youtubeImg = new Image(Constants.salvationz.youtubeImg());
 		youtubeImg.addStyleDependentName("East");
-		eastPanel.add(youtubeImg, 118, 0);
+		eastPanel.add(youtubeImg, 82, 0);
 
 		twitterImg = new Image(Constants.salvationz.twitterImg());
 		twitterImg.addStyleDependentName("East");
-		eastPanel.add(twitterImg, 154, 0);
+		eastPanel.add(twitterImg, 118, 0);
 
 		bannerTickets = new Image(Constants.salvationz.bannerTickets());
 		bannerTickets.addStyleDependentName("East");
@@ -151,7 +151,7 @@ public class EastMenuView extends Composite implements
 
 	@Override
 	public HasClickHandlers getPartyflockClick() {
-		return partyflockImg;
+		return new Image();
 	}
 
 	@Override
