@@ -112,7 +112,7 @@ public class StartPanelView extends Composite implements
 		final int lpIndex = layoutPanel.getWidgetIndex(southPanel);
 		final FlowPanel fp = (FlowPanel) layoutPanel.getWidget(lpIndex);
 		fp.setStyleName("southPanel");
-		fp.add(new HTML("<a class=southPanel href=/salvationz/img/algvoorw.pdf><img src=/salvationz/img/18plus.png/>&nbsp;&nbsp;algemene voorwaarden</a>"));
+		fp.add(new HTML("<a class=southPanel href=/salvationz/img/algvoorw.pdf><img src=/salvationz/img/18plus.png>&nbsp;&nbsp;algemene voorwaarden</a>"));
 	}
 
 	@Override

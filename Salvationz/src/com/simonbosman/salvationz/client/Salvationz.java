@@ -125,10 +125,10 @@ public class Salvationz implements EntryPoint {
 
 		final HTML flashHtml = new HTML(
 				"<object width=\"640\" height=\"385\">"
-						+ "<param name=\"movie\" value=\"http://www.youtube.com/v/uIt7LqnKn9c&hl=en_US&fs=1&rel=0&color1=0x006699&color2=0x54abd6\">"
+						+ "<param name=\"movie\" value=\"http://www.youtube.com/v/dHz-ljBe7to&hl=en_US&fs=1&rel=0&color1=0x006699&color2=0x54abd6\">"
 						+ "</param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowscriptaccess\" "
 						+ "value=\"always\"></param>"
-						+ "<embed src=\"http://www.youtube.com/v/FGfr_StxajE&hl=en_US&fs=1&rel=0&color1=0x006699&color2=0x54abd6&autoplay=1\" "
+						+ "<embed src=\"http://www.youtube.com/v/dHz-ljBe7to&hl=en_US&fs=1&rel=0&color1=0x006699&color2=0x54abd6&autoplay=1\" "
 						+ "type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" "
 						+ "width=\"640\" height=\"385\"></embed></object>");
 
