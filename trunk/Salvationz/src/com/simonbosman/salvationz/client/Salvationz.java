@@ -172,7 +172,7 @@ public class Salvationz implements EntryPoint {
 							}
 						};
 
-						timer.schedule(90000);
+						timer.schedule(48000);
 
 					}
 				});

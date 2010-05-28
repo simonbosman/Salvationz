@@ -23,12 +23,19 @@
 			4000 parkeerplaatsen is er ruime parkeergelegenheid voor
 			bezoekers.
 			</p>
+		<p>Pendeldiensten zijn mogelijk vanaf station Eindhoven en brengen je
+			voor slechts € 7,50 heen en terug!
+			Betalen kan direct bij de opstapplaats van de pendelbus. Makkelijk, goedkoop
+			en veilig!
+			Check www.9292ov.nl voor nadere info voor de recente trein- en bustijden
+			vanaf je huis naar het CS Eindhoven.
+		</p>
 		<p>
 			Houd de site in de gaten voor het laatste nieuws over de
 			mogelijkheden!
 	</p>
 
-		<g:Image ui:field="e3Img"/>
+		<g:Image ui:field="e3Img" />
 
 	</g:HTMLPanel>
 
