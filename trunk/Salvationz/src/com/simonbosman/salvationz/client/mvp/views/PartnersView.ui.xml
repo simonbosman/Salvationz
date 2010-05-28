@@ -9,7 +9,7 @@
 
 	<g:AbsolutePanel>
 		<g:HTML>
-			<img usemap="#partners" src="/salvationz/img/Logo's_Partners_06.png"
+			<img usemap="#partners" src="/salvationz/img/Logos_Partners_06.png"
 				border="0" />
 			<map name="partners">
 				<area shape="rect" title="Biertaxi" target="_blank" alt="Biertaxi"
