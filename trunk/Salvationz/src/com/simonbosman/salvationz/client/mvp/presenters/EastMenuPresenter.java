@@ -24,6 +24,8 @@ import com.simonbosman.salvationz.client.consts.Constants;
 import com.simonbosman.salvationz.client.nativejs.NativeJs;
 import com.simonbosman.salvationz.shared.events.FlashEnum;
 import com.simonbosman.salvationz.shared.events.FlashEvent;
+import com.simonbosman.salvationz.shared.events.WestMenuEnum;
+import com.simonbosman.salvationz.shared.events.WestMenuEvent;
 import com.simonbosman.salvationz.shared.rpc.AddToNewsLetter;
 import com.simonbosman.salvationz.shared.rpc.VoidResult;
 
@@ -50,6 +52,8 @@ public class EastMenuPresenter extends
 	public interface Display extends WidgetDisplay {
 
 		public HasClickHandlers getTicketsClick();
+
+		public HasClickHandlers getPendelbusClick();
 
 		public HasClickHandlers getDjBattleClick();
 
@@ -82,6 +86,10 @@ public class EastMenuPresenter extends
 		if (discount) {
 			ticketsPresenter.setDiscount();
 		}
+	}
+
+	private void doPendel() {
+		eventBus.fireEvent(new WestMenuEvent(WestMenuEnum.LOCATION));
 	}
 
 	private void doDjBattle() {
@@ -154,6 +162,14 @@ public class EastMenuPresenter extends
 
 					}
 				}));
+
+		registerHandler(display.getPendelbusClick().addClickHandler(new ClickHandler() {
+
+			@Override
+			public void onClick(final ClickEvent event) {
+				doPendel();
+			}
+		}));
 
 		registerHandler(display.getTwitterClick().addClickHandler(
 				new ClickHandler() {
