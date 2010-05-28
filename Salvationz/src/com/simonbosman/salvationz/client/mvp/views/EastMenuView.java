@@ -82,7 +82,7 @@ public class EastMenuView extends Composite implements
 		emailTextBox.setWidth("170px");
 		eastPanel.add(emailTextBox, 10, 296);
 
-		final HTML soldTickets = new HTML("<p>9130 tickets sold already</p>");
+		final HTML soldTickets = new HTML("<p>12398 tickets sold already</p>");
 		eastPanel.add(soldTickets, 10, 330);
 
 		popupContent = new HTML(

@@ -9,8 +9,19 @@
 
 	<g:AbsolutePanel>
 		<g:HTML>
-			<img usemap="#partners" src="/salvationz/img/Logos_Partners_02.png" border="0"/>
+			<img usemap="#partners" src="/salvationz/img/Logo's_Partners_06.png"
+				border="0" />
 			<map name="partners">
+				<area shape="rect" title="Biertaxi" target="_blank" alt="Biertaxi"
+					href="http://www.de-biertaxi.nl/" coords="237,462,448,533" />
+				<area shape="rect" title="Joceo" target="_blank" alt="Joceo"
+					href="http://twitter.com/Joceo" coords="24,460,211,536" />
+				<area shape="rect" title="Festival Live" target="_blank" alt="Festival Live"
+					href="http://www.festivallife.com/" coords="412,386,598,441" />
+				<area shape="rect" title="Dance" target="_blank" alt="Dance"
+					href="http://www.dance.nl" coords="231,392,407,438" />
+				<area shape="rect" title="Vitamin Water" target="_blank" alt="Vitamin Water"
+					href="http://www.vitaminwater.nl" coords="408,32,491,115" />
 				<area shape="rect" target="_blank" alt="gulden bodem"
 					href="http://www.guldenbodem.nl" coords="33,393,218,423" />
 				<area shape="rect" target="_blank" alt="ISecurity"
