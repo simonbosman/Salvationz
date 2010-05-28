@@ -5,7 +5,7 @@
 	<g:AbsolutePanel>
 		<g:HTML>
 			<img src="/salvationz/img/Animated_SA.gif" />
-			<img usemap="#djs" src="/salvationz/img/Line_up_3.jpg" border="0" />
+			<img usemap="#djs" src="/salvationz/img/Line_up_4.jpg" border="0" />
 			<map name="djs">
 				<area shape="rect" title="dj roog" target="_blank" alt="dj roog"
 					href="http://www.djroog.com/" coords="559,142,642,165" />

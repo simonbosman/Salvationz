@@ -20,6 +20,7 @@ public class EastMenuView extends Composite implements
 	private final AbsolutePanel eastPanel;
 	private final Image bannerTickets;
 	private final Image bannerDjBattle;
+	private final Image bannerPendelbus;
 	private final Image twitterImg;
 	private final Image hyvesImg;
 	private final Image facebookImg;
@@ -82,8 +83,12 @@ public class EastMenuView extends Composite implements
 		emailTextBox.setWidth("170px");
 		eastPanel.add(emailTextBox, 10, 296);
 
+		bannerPendelbus = new Image(Constants.salvationz.bannerPendelbus());
+		bannerPendelbus.addStyleDependentName("East");
+		eastPanel.add(bannerPendelbus, 10, 327);
+
 		final HTML soldTickets = new HTML("<p>12398 tickets sold already</p>");
-		eastPanel.add(soldTickets, 10, 330);
+		eastPanel.add(soldTickets, 10, 400);
 
 		popupContent = new HTML(
 				"Oops, something went wrong. <br>Pls send an email to techniek@salvationz.nl");
@@ -195,6 +200,11 @@ public class EastMenuView extends Composite implements
 	@Override
 	public HTML getPopupContent() {
 		return popupContent;
+	}
+
+	@Override
+	public HasClickHandlers getPendelbusClick() {
+		return bannerPendelbus;
 	}
 
 }

@@ -16,6 +16,7 @@ public interface SalvationzConstants extends Constants{
 	public String flashBanner();
 	public String bannerTickets();
 	public String bannerDjBattle();
+	public String bannerPendelbus();
 	public String nieuwsBriefButton();
 	public String eastMenuButton();
 	public String partnerButton();
