@@ -1,13 +1,17 @@
 package com.simonbosman.salvationz.client.mvp.views;
 
+import pl.rmalinowski.gwt2swf.client.ui.SWFWidget;
+
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.DockLayoutPanel;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.HTML;
+import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.ScrollPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
+import com.simonbosman.salvationz.client.consts.Constants;
 import com.simonbosman.salvationz.client.mvp.presenters.StartPanelPresenter;
 
 /**
@@ -22,7 +26,7 @@ public class StartPanelView extends Composite implements
 	final private FlowPanel northPanel;
 	final private FlowPanel westPanel;
 	final private FlowPanel eastPanel;
-	final private FlowPanel southPanel;
+	final private HorizontalPanel southPanel;
 	final private FlowPanel south2Panel;
 	final private FlowPanel centerPanel;
 
@@ -38,7 +42,7 @@ public class StartPanelView extends Composite implements
 		westPanel = new FlowPanel();
 		scrollPanel.add(westPanel);
 		eastPanel = new FlowPanel();
-		southPanel = new FlowPanel();
+		southPanel = new HorizontalPanel();
 		south2Panel = new FlowPanel();
 		centerPanel = new FlowPanel();
 
@@ -47,7 +51,7 @@ public class StartPanelView extends Composite implements
 
 		layoutPanel.addNorth(northPanel, 130);
 		layoutPanel.addSouth(south2Panel, 5);
-		layoutPanel.addSouth(southPanel, 30);
+		layoutPanel.addSouth(southPanel, 100);
 		layoutPanel.addWest(scrollPanel, 785);
 		layoutPanel.addEast(eastPanel, 190);
 		layoutPanel.add(centerPanel);
@@ -110,9 +114,15 @@ public class StartPanelView extends Composite implements
 	@Override
 	public void setPanelSouth() {
 		final int lpIndex = layoutPanel.getWidgetIndex(southPanel);
-		final FlowPanel fp = (FlowPanel) layoutPanel.getWidget(lpIndex);
-		fp.setStyleName("southPanel");
-		fp.add(new HTML("<a class=southPanel href=\"/salvationz/img/Algemene_Voorwaarden_Salvationz_02.pdf\"><img src=/salvationz/img/18plus.png>&nbsp;&nbsp;algemene voorwaarden</a>"));
+		final HorizontalPanel vp = (HorizontalPanel) layoutPanel.getWidget(lpIndex);
+		vp.setStyleName("southPanel");
+		final SWFWidget countdown = new SWFWidget(Constants.salvationz.footer(),300, 100);
+		countdown.addFlashVar("milsec", "1276300800000");
+		countdown.addFlashVar("festival_op", "(282010,5,12,0,0,0)");
+		vp.setSpacing(10);
+		vp.add(countdown);
+		vp.add(new HTML("<a class=southPanel href=\"/salvationz/img/Algemene_Voorwaarden_Salvationz_02.pdf\"><img src=/salvationz/img/18plus.png>&nbsp;&nbsp;algemene voorwaarden</a>"));
+
 	}
 
 	@Override
