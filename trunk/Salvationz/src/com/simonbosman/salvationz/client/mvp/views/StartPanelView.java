@@ -51,7 +51,7 @@ public class StartPanelView extends Composite implements
 
 		layoutPanel.addNorth(northPanel, 130);
 		layoutPanel.addSouth(south2Panel, 5);
-		layoutPanel.addSouth(southPanel, 100);
+		layoutPanel.addSouth(southPanel, 57);
 		layoutPanel.addWest(scrollPanel, 785);
 		layoutPanel.addEast(eastPanel, 190);
 		layoutPanel.add(centerPanel);
@@ -116,11 +116,10 @@ public class StartPanelView extends Composite implements
 		final int lpIndex = layoutPanel.getWidgetIndex(southPanel);
 		final HorizontalPanel vp = (HorizontalPanel) layoutPanel.getWidget(lpIndex);
 		vp.setStyleName("southPanel");
-		final SWFWidget countdown = new SWFWidget(Constants.salvationz.footer(),300, 100);
-		countdown.addFlashVar("milsec", "1276300800000");
-		countdown.addFlashVar("festival_op", "(282010,5,12,0,0,0)");
-		vp.setSpacing(10);
+		final SWFWidget countdown = new SWFWidget(Constants.salvationz.footer(),200, 50);
+		countdown.addFlashVar("milsec", "1276333200000");
 		vp.add(countdown);
+		vp.setSpacing(10);
 		vp.add(new HTML("<a class=southPanel href=\"/salvationz/img/Algemene_Voorwaarden_Salvationz_02.pdf\"><img src=/salvationz/img/18plus.png>&nbsp;&nbsp;algemene voorwaarden</a>"));
 
 	}
