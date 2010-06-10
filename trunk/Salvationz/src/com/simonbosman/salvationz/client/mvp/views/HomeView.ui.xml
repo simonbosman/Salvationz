@@ -3,6 +3,7 @@
 
 	<g:AbsolutePanel>
 		<g:HTML>
+			<img src="/salvationz/img/Timetable_WEBsite_Salvationz_v02.jpg"/>
 			<img src="/salvationz/img/Animated_SA.gif" />
 			<img usemap="#djs" src="/salvationz/img/Line_up_4.jpg" border="0" />
 			<map name="djs">
