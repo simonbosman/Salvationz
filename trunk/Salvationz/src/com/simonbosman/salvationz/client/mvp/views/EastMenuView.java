@@ -87,9 +87,6 @@ public class EastMenuView extends Composite implements
 		bannerPendelbus.addStyleDependentName("East");
 		eastPanel.add(bannerPendelbus, 10, 327);
 
-		final HTML soldTickets = new HTML("<p>14.436 tickets sold already</p>");
-		eastPanel.add(soldTickets, 10, 400);
-
 		popupContent = new HTML(
 				"Oops, something went wrong. <br>Pls send an email to techniek@salvationz.nl");
 		popup = new DecoratedPopupPanel(true);
