@@ -1,7 +1,5 @@
 package com.simonbosman.salvationz.client.mvp.views;
 
-import pl.rmalinowski.gwt2swf.client.ui.SWFWidget;
-
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.DockLayoutPanel;
@@ -11,7 +9,6 @@ import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.ScrollPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
-import com.simonbosman.salvationz.client.consts.Constants;
 import com.simonbosman.salvationz.client.mvp.presenters.StartPanelPresenter;
 
 /**
@@ -116,12 +113,7 @@ public class StartPanelView extends Composite implements
 		final int lpIndex = layoutPanel.getWidgetIndex(southPanel);
 		final HorizontalPanel vp = (HorizontalPanel) layoutPanel.getWidget(lpIndex);
 		vp.setStyleName("southPanel");
-		final SWFWidget countdown = new SWFWidget(Constants.salvationz.footer(),200, 50);
-		countdown.addFlashVar("milsec", "1276333200000");
-		vp.add(countdown);
-		vp.setSpacing(10);
-		vp.add(new HTML("<a class=southPanel href=\"/salvationz/img/Algemene_Voorwaarden_Salvationz_02.pdf\"><img src=/salvationz/img/18plus.png>&nbsp;&nbsp;algemene voorwaarden</a>"));
-
+		vp.add(new HTML("<p class=tittle>THANKS EVERYBODY WE COULDN'T DO IT WITHOUT YOU!</p>"));
 	}
 
 	@Override
