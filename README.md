@@ -10,5 +10,5 @@ Best practices and design patterns from this video are implemnted.
 
 https://www.youtube.com/watch?v=PDuhR18-EdM
 
-Was a steap learning curve, but was worth it.
+Was a steep learning curve, but was worth it.
 
