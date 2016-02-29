@@ -4,7 +4,7 @@ Salvationz
 Website for dance event Salvationz written in google GWT
 
 
-http://event-salvationz.appspot.com/
+http://salvationz.mybluemix.net/
 
 Best practices and design patterns from this video are implemented.
 
