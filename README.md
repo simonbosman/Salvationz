@@ -1,4 +1,5 @@
-Auto-scaling single-page application on Google Cloud Platform for a big dance event in the Netherlands.
+
+Salvationz 2010 - A big dance event in the Netherlands
 ===
 
 Archived on IBM bluemix, originally served by Google App-Engine
