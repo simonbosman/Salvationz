@@ -7,14 +7,14 @@ Context
 A big dance event in the Netherlands required a website for promoting the event.  The most wanted requirement was to be able to handle a lot of web traffic at peak intervals.  
 
 Other requirements where:
-bye tickets online
-subscribe to newsletter
-play for prices
-book a hotel room
-general information about the event
-visual effects
-integration with social media
-snappy look & feel 
+* bye tickets online
+* subscribe to newsletter
+* play for prices
+* book a hotel room
+* general information about the event
+* visual effects
+* integration with social media
+* snappy look & feel 
 
 Solution
 ---
