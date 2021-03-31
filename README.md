@@ -24,13 +24,25 @@ After careful reconsideration, I chose Google Cloud Platform as the backend infr
 * OpenJDK based Java runtime supports the standard public Java library.
 * Doesn't impose a security manager--your code won't be restricted by Java permissions issues.
 
-For the front-end, I choose Google Web Toolkit. 
-Best practices and design patterns from this video are implemented.
+For the front-end, I choose Google Web Toolkit.
+
+The following best practices and design patterns were implemented.
+* Getting browser history right, and get it right early.
+* Use an Eventbus to fight spaghetti
+* Embrace asynchrony
+* Always be decoupling
+* Strive to achieve statelesness
+* Command Pattern RPC
+* MVP pattern for custom widgets
+* Dependency injection of app-wide services
+* Unit testing with mock services
+
+See this video for some background
 https://www.youtube.com/watch?v=PDuhR18-EdM
 
 Demo
 ---
-As of now the website is archived for demoing purpose on IBM bluemix.
+As of now, the website is archived for demoing purpose on IBM bluemix.
 http://salvationz.mybluemix.net/
 
 
