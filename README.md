@@ -7,7 +7,7 @@ Context
 A big dance event in the Netherlands required a website for promoting the event.  The most wanted requirement was to be able to handle a lot of web traffic at peak intervals.  
 
 Other requirements where:
-* Bye tickets online
+* Buy tickets online
 * Subscribe to newsletter
 * Play for prices
 * Book a hotel room
