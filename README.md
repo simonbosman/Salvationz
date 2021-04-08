@@ -18,7 +18,7 @@ Other requirements where:
 
 Solution
 ---
-After careful reconsideration, I chose Google Cloud Platform as the backend infrastructure. Java on Google App Engine has the following required features.
+After careful reconsideration, I chose Google Cloud Platform as the back-end infrastructure. Java on Google App Engine has the following required features.
 * Optimized to scale nearly instantaneously to handle huge traffic spikes.
 * Most cost-effective for applications that have significant periods where they are not serving traffic.
 * OpenJDK based Java runtime supports the standard public Java library.
